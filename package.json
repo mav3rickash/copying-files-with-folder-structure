@@ -1,0 +1,34 @@
+{
+  "name": "copying-files-with-folder-structure",
+  "version": "1.0.0",
+  "description": "Copies files from source to destination. Input shall be taken through CLI ",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index ./src ./dst"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "walk": "2.3.14",
+    "fs-extra": "9.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mav3rickash/copying-files-with-folder-structure.git"
+  },
+  "keywords": [
+    "Copy",
+    "files",
+    "to",
+    "destination",
+    "changing",
+    "name",
+    "to",
+    "folderpath"
+  ],
+  "author": "Ashwin",
+  "license": "MIT ",
+  "bugs": {
+    "url": "https://github.com/mav3rickash/copying-files-with-folder-structure/issues"
+  },
+  "homepage": "https://github.com/mav3rickash/copying-files-with-folder-structure#readme"
+}
